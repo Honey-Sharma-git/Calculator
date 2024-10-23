@@ -8,3 +8,94 @@
 /*Utility classes begin*/
 
 /*Utility classes end*/
+body {
+  min-height: 100vh;
+  display: grid;
+  place-content: center;
+}
+.main-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(7, 1fr);
+  grid-template-areas:
+    "o o o o"
+    "fb1 fb1 fb2 fb2"
+    "k1 k2 k3 k4"
+    "k5 k6 k7 k8"
+    "k9 k10 k11 k12"
+    "k13 k14 k15 k16"
+    "k17 k18 k19 k20";
+}
+.output {
+  grid-area: o;
+}
+.fb1 {
+  grid-area: fb1;
+}
+.fb2 {
+  grid-area: fb2;
+}
+.keys {
+  grid-area: k;
+}
+.k1 {
+  grid-area: k1;
+}
+.k2 {
+  grid-area: k2;
+}
+.k3 {
+  grid-area: k3;
+}
+.k4 {
+  grid-area: k4;
+}
+.k5 {
+  grid-area: k5;
+}
+.k6 {
+  grid-area: k6;
+}
+.k7 {
+  grid-area: k7;
+}
+.k8 {
+  grid-area: k8;
+}
+.k9 {
+  grid-area: k9;
+}
+.k10 {
+  grid-area: k10;
+}
+.k11 {
+  grid-area: k11;
+}
+.k12{
+    grid-area: k12;
+}
+.k13{
+    grid-area: k13;
+}
+
+.k14{
+    grid-area: k14;
+}
+.k15{
+    grid-area: k15;
+}
+.k16{
+    grid-area: k16;
+}
+.k17{
+    grid-area: k17;
+}
+.k18{
+    grid-area: k18;
+}
+.k19{
+    grid-area: k19;
+}
+.k20{
+    grid-area: k20;
+}
