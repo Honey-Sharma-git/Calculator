@@ -27,7 +27,7 @@
 }
 .redOnGrey {
   color: #d93e36;
-  background-color:#e9e9ec; ;
+  background-color: #e9e9ec;
 }
 /*Utility classes end*/
 body {
@@ -60,6 +60,9 @@ body {
   outline: transparent;
   border-radius: 50%;
   place-self: center;
+}
+button {
+  font-size: 2rem;
 }
 .main-container {
   border: solid 4px grey;
