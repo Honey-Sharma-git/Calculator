@@ -13,10 +13,26 @@ body {
   display: grid;
   place-content: center;
 }
+.output {
+  height: 30vh;
+  /* min-height: 100px; */
+  width: 90vw;
+  max-width: 400px;
+}
+.functional-button {
+  height: 40px;
+}
+.keys {
+  height: 40px;
+  width: 40px;
+  place-self: center;
+}
 .main-container {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: repeat(7, 1fr);
+  grid-template-columns: repeat(4, auto);
+  grid-template-rows: repeat(7, auto);
+  place-content: center;
+  gap: 10px 20px;
   grid-template-areas:
     "o o o o"
     "fb1 fb1 fb2 fb2"
@@ -71,31 +87,31 @@ body {
 .k11 {
   grid-area: k11;
 }
-.k12{
-    grid-area: k12;
+.k12 {
+  grid-area: k12;
 }
-.k13{
-    grid-area: k13;
+.k13 {
+  grid-area: k13;
 }
 
-.k14{
-    grid-area: k14;
+.k14 {
+  grid-area: k14;
 }
-.k15{
-    grid-area: k15;
+.k15 {
+  grid-area: k15;
 }
-.k16{
-    grid-area: k16;
+.k16 {
+  grid-area: k16;
 }
-.k17{
-    grid-area: k17;
+.k17 {
+  grid-area: k17;
 }
-.k18{
-    grid-area: k18;
+.k18 {
+  grid-area: k18;
 }
-.k19{
-    grid-area: k19;
+.k19 {
+  grid-area: k19;
 }
-.k20{
-    grid-area: k20;
+.k20 {
+  grid-area: k20;
 }
