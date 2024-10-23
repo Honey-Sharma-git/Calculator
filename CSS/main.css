@@ -21,7 +21,10 @@ body {
 }
 .functional-button {
   height: 8vh;
+  aspect-ratio: 2.5/1;
+  place-self: center;
   border: transparent;
+  border-radius: 50px;
   outline: transparent;
 }
 .keys {
