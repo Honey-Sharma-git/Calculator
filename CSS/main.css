@@ -34,10 +34,10 @@ body {
   padding: 0.5vh 0rem;
   display: grid;
   place-content: center;
+  background-color: black;
 }
 .output {
   height: 26vh;
-  /* min-height: 100px; */
   width: 99vw;
   max-width: 400px;
   padding: 1rem;
@@ -63,6 +63,9 @@ body {
 }
 button {
   font-size: 2rem;
+}
+button:active {
+  background-color: #cbcbcd;
 }
 .main-container {
   border: solid 4px grey;
