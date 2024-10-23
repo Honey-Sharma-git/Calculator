@@ -1,0 +1,1 @@
+This is a cloned webpage of Samsung mobile calculator app. This is made for educational purpose.
