@@ -6,7 +6,28 @@
   /* outline: 1px solid red; */
 }
 /*Utility classes begin*/
-
+.whiteOnGreenBg {
+  color: white;
+  background-color: #53a303;
+}
+.mainBg {
+  background-color: #f6f6f8;
+}
+.greenOnGreyBg {
+  color: #318507;
+  background-color: #e9e9ec;
+}
+.blackOnWhiteBg {
+  color: black;
+  background-color: #fcfcff;
+}
+.greyOnDGrey {
+  color: #8c8c91;
+  background-color: #f6f6f8;
+}
+.redText {
+  color: #d93e36;
+}
 /*Utility classes end*/
 body {
   padding: 0.5vh 0rem;
@@ -18,11 +39,10 @@ body {
   /* min-height: 100px; */
   width: 99vw;
   max-width: 400px;
-  padding:1rem;
+  padding: 1rem;
   text-align: right;
   font-size: 4rem;
   border-bottom: 2px grey solid;
-
 }
 .functional-button {
   height: 8vh;
