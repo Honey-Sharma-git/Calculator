@@ -1,14 +1,20 @@
-/*Basic CSS Reset*/
+/*CSS RESET*/
+*::after,
+*::before,
+* {
+  box-sizing: border-box;
+  /* outline: 1px solid red; */
+  /* background-color: hsla(0, 100%, 50%, 0.05); */
+}
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
-  /* outline: 1px solid red; */
 }
-/*Utility classes begin*/
+
+/*|| UTILITY CLASSES*/
 .whiteOnGreenBg {
-  color: white;
   background-color: #53a303;
+  color: white;
 }
 .mainBg {
   background-color: #f6f6f8;
@@ -18,63 +24,64 @@
   background-color: #e9e9ec;
 }
 .blackOnWhiteBg {
-  color: black;
   background-color: #fcfcff;
+  color: black;
 }
 .greyOnDGrey {
-  color: #8c8c91;
   background-color: #f6f6f8;
+  color: #8c8c91;
 }
 .redOnGrey {
-  color: #d93e36;
   background-color: #e9e9ec;
+  color: #d93e36;
 }
-/*Utility classes end*/
+/*|| GENERAL STYLES*/
 body {
-  padding: 0.5vh 0rem;
-  display: grid;
-  place-content: center;
   background-color: black;
+  display: grid;
+  padding: 0.5vh 0rem;
+  place-content: center;
 }
 .output {
+  border-bottom: 2px grey solid;
+  font-size: 4rem;
   height: 26vh;
-  width: 99vw;
   max-width: 400px;
   padding: 1rem;
   text-align: right;
-  font-size: 4rem;
-  border-bottom: 2px grey solid;
+  width: 99vw;
 }
 .functional-button {
-  height: 8vh;
   aspect-ratio: 2.5/1;
-  place-self: center;
-  border: transparent;
   border-radius: 50px;
+  border: transparent;
+  height: 8vh;
   outline: transparent;
+  place-self: center;
 }
 .keys {
-  height: 10vh;
   aspect-ratio: 1/1;
-  border: transparent;
-  outline: transparent;
   border-radius: 50%;
+  border: transparent;
+  height: 10vh;
+  outline: transparent;
   place-self: center;
 }
 button {
+  cursor: pointer;
   font-size: 2rem;
 }
 button:active {
   background-color: #cbcbcd;
 }
 .main-container {
-  border: solid 4px grey;
   border-radius: 25px;
+  border: solid 4px grey;
   display: grid;
+  gap: 10px 20px;
   grid-template-columns: repeat(4, auto);
   grid-template-rows: repeat(7, auto);
   place-content: center;
-  gap: 10px 20px;
   grid-template-areas:
     "o o o o"
     "fb1 fb1 fb2 fb2"
@@ -84,6 +91,7 @@ button:active {
     "k13 k14 k15 k16"
     "k17 k18 k19 k20";
 }
+/* || GRID AREAS */
 .output {
   grid-area: o;
 }
