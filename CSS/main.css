@@ -19,6 +19,10 @@
 .mainBg {
   background-color: #f6f6f8;
 }
+.mainBg-dark{
+  background-color: black;
+  color:white;
+}
 .greenOnGreyBg {
   color: #318507;
   background-color: #e9e9ec;
