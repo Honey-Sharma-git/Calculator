@@ -10,3 +10,11 @@ function darkMode(){
         document.querySelector('.js-output').classList.remove('mainBg-dark');
     }
 }
+let calculation = '';
+function calc(value){
+   calculation += value;
+  
+}
+function displayOutput(){
+    document.querySelector('.js-output').innerHTML = calculation;
+}
