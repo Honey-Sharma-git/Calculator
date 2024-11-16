@@ -19,17 +19,26 @@
 .mainBg {
   background-color: #f6f6f8;
 }
-.mainBg-dark{
+.mainBg-dark {
   background-color: black;
-  color:white;
+  color: white;
 }
 .greenOnGreyBg {
   color: #318507;
   background-color: #e9e9ec;
 }
+.greenOnGreyBg-dark {
+  color: #6cd13a;
+
+  background-color: #2d2d30;
+}
 .blackOnWhiteBg {
   background-color: #fcfcff;
   color: black;
+}
+.blackOnWhiteBg-dark {
+  background-color: #17171a;
+  color: #eaeaeb;
 }
 .greyOnDGrey {
   background-color: #f6f6f8;
@@ -38,6 +47,10 @@
 .redOnGrey {
   background-color: #e9e9ec;
   color: #d93e36;
+}
+.redOnGrey-dark{
+  color:#fc6c65;
+  background-color: #2d2d30;
 }
 /*|| GENERAL STYLES*/
 body {
